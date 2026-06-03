@@ -7882,14 +7882,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 115.57 22.86 0)
+		(property "Value" "3V0"
+			(at 118.11 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7960,7 +7961,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V0"
 			(at 142.24 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8613,7 +8614,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V0"
 			(at 73.66 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9628,7 +9629,7 @@
 				)
 			)
 		)
-		(property "Value" "SIM USB VBUS"
+		(property "Value" "SIM_USB_VBUS"
 			(at 256.54 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11287,7 +11288,7 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
+		(property "Value" "VSYS"
 			(at 175.26 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
