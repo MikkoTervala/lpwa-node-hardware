@@ -421,7 +421,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -431,25 +431,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -10.16 19.05 0)
+				(at 0 22.225 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -474,7 +472,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -507,7 +505,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -619,7 +617,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -820,7 +818,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -1125,7 +1123,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5856,12 +5854,6 @@
 		(uuid "0d3c7f63-ce3d-4b5e-9155-1684e9d2678a")
 	)
 	(junction
-		(at 48.26 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1111377e-8694-43fb-9a26-6ceee413fed5")
-	)
-	(junction
 		(at 107.95 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5934,6 +5926,12 @@
 		(uuid "9fc1bc65-be90-4382-8343-3125ddd4dee5")
 	)
 	(junction
+		(at 48.26 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5d84c31-e4a8-4b3a-bf95-09a21232707b")
+	)
+	(junction
 		(at 248.92 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5952,7 +5950,7 @@
 		(uuid "c67ef758-4558-43df-9808-ff243c345e2d")
 	)
 	(junction
-		(at 41.91 99.06)
+		(at 41.91 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d09dbbaa-71b6-48a8-aa78-8ff1590c77b7")
@@ -5995,7 +5993,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 99.06) (xy 48.26 99.06)
+			(xy 41.91 93.98) (xy 48.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6405,7 +6403,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 105.41) (xy 48.26 105.41)
+			(xy 35.56 105.41) (xy 40.64 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6655,6 +6653,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 105.41) (xy 48.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97360e80-2d7c-412b-9977-8fbab8bc7499")
+	)
+	(wire
+		(pts
 			(xy 116.84 58.42) (xy 116.84 60.96)
 		)
 		(stroke
@@ -6695,7 +6703,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 99.06) (xy 48.26 105.41)
+			(xy 48.26 93.98) (xy 48.26 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6825,7 +6833,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 99.06) (xy 27.94 99.06)
+			(xy 22.86 93.98) (xy 27.94 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6885,7 +6893,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 99.06) (xy 41.91 99.06)
+			(xy 35.56 93.98) (xy 41.91 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6895,7 +6903,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 96.52) (xy 41.91 99.06)
+			(xy 41.91 91.44) (xy 41.91 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7105,7 +7113,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 100.33) (xy 22.86 99.06)
+			(xy 22.86 95.25) (xy 22.86 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7913,7 +7921,7 @@
 	)
 	(global_label "SIM_PWRKEY"
 		(shape input)
-		(at 45.72 105.41 180)
+		(at 35.56 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7923,7 +7931,7 @@
 		)
 		(uuid "eb6c440a-52b2-45c4-bf21-51d67099bae1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.0025 105.41 0)
+			(at 20.8425 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9959,7 +9967,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 100.33 0)
+		(at 22.86 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9970,7 +9978,7 @@
 		(fields_autoplaced yes)
 		(uuid "53b2edeb-0600-4a18-a295-90b934fd37e9")
 		(property "Reference" "#PWR031"
-			(at 22.86 106.68 0)
+			(at 22.86 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9981,7 +9989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 105.41 0)
+			(at 22.86 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9991,7 +9999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 100.33 0)
+			(at 22.86 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10002,7 +10010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 100.33 0)
+			(at 22.86 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10013,7 +10021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 100.33 0)
+			(at 22.86 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10037,7 +10045,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 31.75 99.06 180)
+		(at 31.75 93.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10048,7 +10056,7 @@
 		(fields_autoplaced yes)
 		(uuid "561717ab-38d8-4ec4-a2d0-015794c61386")
 		(property "Reference" "D4"
-			(at 31.75 92.71 0)
+			(at 31.75 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10058,7 +10066,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3T1G"
-			(at 31.75 95.25 0)
+			(at 31.75 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10068,7 +10076,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 31.75 94.615 0)
+			(at 31.75 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10079,7 +10087,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 31.75 99.06 0)
+			(at 31.75 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10090,7 +10098,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 31.75 99.06 0)
+			(at 31.75 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11806,7 +11814,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 41.91 96.52 0)
+		(at 41.91 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11817,7 +11825,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f41f167-818a-4488-a55c-f4c6ccabfd86")
 		(property "Reference" "TP13"
-			(at 43.18 95.2499 0)
+			(at 43.18 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11828,7 +11836,7 @@
 			)
 		)
 		(property "Value" "PWRKEY"
-			(at 43.18 97.7899 0)
+			(at 43.18 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11839,7 +11847,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 46.99 96.52 0)
+			(at 46.99 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11850,7 +11858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 96.52 0)
+			(at 46.99 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11861,7 +11869,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 41.91 96.52 0)
+			(at 41.91 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11969,6 +11977,97 @@
 			(project "lpwa-node"
 				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19/7413c64b-a7f8-4524-b57e-98dbe08fecb0"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a304db93-ce83-469d-9331-c052af4f7e52")
+		(property "Reference" "R22"
+			(at 43.18 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 43.18 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 43.18 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 43.18 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03edfbac-1ee7-49ad-89d9-53a29e21bf3d")
+		)
+		(pin "2"
+			(uuid "2e1f9f93-1816-4dda-b8e0-fba63701e86d")
+		)
+		(instances
+			(project "lpwa-node"
+				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19/7413c64b-a7f8-4524-b57e-98dbe08fecb0"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -13227,7 +13326,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 209.55 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -13279,7 +13378,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 209.55 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -13349,7 +13448,7 @@
 		(pin "B9"
 			(uuid "9e72ec9c-f21b-401e-b778-24bacb6b4ad6")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "77da981c-0428-4ba6-8b05-b9d28fab6864")
 		)
 		(instances
