@@ -5902,10 +5902,22 @@
 		(uuid "5ce451af-0428-4e84-98cd-6c82354d56ac")
 	)
 	(junction
+		(at 172.72 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "691e14a4-7fca-4257-b8a4-e125973e1056")
+	)
+	(junction
 		(at 149.86 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7188caa8-e18b-4704-a2ad-3e199c483dca")
+	)
+	(junction
+		(at 184.15 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b02ddcb-0611-4d4c-a233-9dd5834d5230")
 	)
 	(junction
 		(at 224.79 24.13)
@@ -5918,12 +5930,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e8d176c-af74-44f2-a8ad-23b481b5a699")
-	)
-	(junction
-		(at 172.72 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fc1bc65-be90-4382-8343-3125ddd4dee5")
 	)
 	(junction
 		(at 48.26 105.41)
@@ -6253,7 +6259,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 100.33) (xy 175.26 100.33)
+			(xy 172.72 100.33) (xy 184.15 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6270,6 +6276,16 @@
 			(type default)
 		)
 		(uuid "57f852d3-feca-408f-9359-2c435180331d")
+	)
+	(wire
+		(pts
+			(xy 184.15 100.33) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58acbe40-d028-44c3-a650-dbfbba101df0")
 	)
 	(wire
 		(pts
@@ -6890,6 +6906,16 @@
 			(type default)
 		)
 		(uuid "b3f0fa26-efb4-4062-8993-c823b534f21c")
+	)
+	(wire
+		(pts
+			(xy 184.15 100.33) (xy 187.96 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45a0944-15ae-4db2-bc28-189610e2557c")
 	)
 	(wire
 		(pts
@@ -8862,9 +8888,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26b0d3ca-0b23-4b16-829e-2004e3392f6d")
@@ -9135,6 +9161,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC Part #" "C18548266"
+			(at 77.47 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "23"
 			(uuid "0b7d7b41-0b0a-43a1-90a3-7e13de717bb2")
 		)
@@ -9381,9 +9418,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2abb5d74-1850-4818-815d-ca858c8e24d2")
@@ -9510,7 +9547,7 @@
 				)
 			)
 		)
-		(property "Description" "Four channel unidirectional level shifter"
+		(property "Description" ""
 			(at 95.25 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9570,7 +9607,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TXU0104PWR/Texas+Instruments/view-part/?ref=eda"
+		(property "Check_prices" ""
 			(at 95.25 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9606,7 +9643,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TXU0104PWR/Texas+Instruments/view-part/?ref=snap"
+		(property "SnapEDA_Link" ""
 			(at 95.25 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9618,7 +9655,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "TXU0104PWR"
+		(property "MP" ""
 			(at 95.25 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9722,9 +9759,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "310a6a23-f284-489f-9f78-3e6fdd9919e7")
@@ -9882,6 +9919,85 @@
 			(project "lpwa-node"
 				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19/7413c64b-a7f8-4524-b57e-98dbe08fecb0"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43847965-7e9c-4971-a40b-5fc064c374d2")
+		(property "Reference" "#PWR080"
+			(at 184.15 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64425583-320f-472d-aa0e-9587365f774d")
+		)
+		(instances
+			(project "lpwa-node"
+				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19/7413c64b-a7f8-4524-b57e-98dbe08fecb0"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -10108,6 +10224,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C61148"
+			(at 31.75 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc6cbe38-7e46-4586-b562-b6a031f671cc")
 		)
@@ -10207,9 +10334,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58f25455-7124-45d5-8e28-394f744047af")
@@ -10427,7 +10554,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C161115"
 			(at 273.05 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10599,7 +10726,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C161115"
 			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10722,9 +10849,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7008e7f3-89af-442b-a22a-1513ff04affd")
@@ -10972,9 +11099,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "768d0228-28f2-4285-98df-8ff823897c31")
@@ -11131,9 +11258,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "819f5624-4f18-45a5-99c9-0a2ccd3abcb3")
@@ -11457,7 +11584,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 175.26 100.33 270)
+		(at 187.96 100.33 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11468,7 +11595,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c603566-23d8-4dc3-9533-ade7e6c27ec5")
 		(property "Reference" "#PWR047"
-			(at 171.45 100.33 0)
+			(at 184.15 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11479,7 +11606,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 179.07 100.3299 90)
+			(at 191.77 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11490,7 +11617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 100.33 0)
+			(at 187.96 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11501,7 +11628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 100.33 0)
+			(at 187.96 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11512,7 +11639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 175.26 100.33 0)
+			(at 187.96 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11601,7 +11728,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C161115"
 			(at 243.84 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12140,7 +12267,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C161115"
 			(at 153.67 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12172,9 +12299,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a80165d7-3fcf-4a6f-b3c6-b7e15008f7b7")
@@ -12390,7 +12517,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C161115"
 			(at 142.24 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12501,9 +12628,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b86a9fbd-643b-4d6c-b4d6-3ea8aa08f095")
@@ -12581,9 +12708,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb058aa3-e6eb-4448-9212-f08288fb5e02")
@@ -12846,9 +12973,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8508f35-e775-46ea-b03f-5416c226c004")
@@ -13335,7 +13462,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d50e01bc-da75-4bb7-8319-3e5eb349a4fa")
 		(property "Reference" "J4"
 			(at 209.55 102.87 0)
@@ -13358,7 +13484,7 @@
 			)
 		)
 		(property "Footprint" "lpwa-node:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 209.55 107.95 0)
+			(at 225.298 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13466,9 +13592,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e16143ad-5a73-4c4d-a632-8f66ae07b918")
@@ -13534,6 +13660,99 @@
 			(project "lpwa-node"
 				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19/7413c64b-a7f8-4524-b57e-98dbe08fecb0"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 184.15 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f33c13a3-77d1-4f04-b085-4bda3989c73f")
+		(property "Reference" "C23"
+			(at 186.69 102.8635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100µF"
+			(at 186.69 105.4035 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 184.15 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C7432784"
+			(at 184.15 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e622664-a0f3-4466-b9e8-86bda149b9e0")
+		)
+		(pin "2"
+			(uuid "df2984d6-a442-44ee-8adf-7dcfe0a15bde")
+		)
+		(instances
+			(project "lpwa-node"
+				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19/7413c64b-a7f8-4524-b57e-98dbe08fecb0"
+					(reference "C23")
 					(unit 1)
 				)
 			)

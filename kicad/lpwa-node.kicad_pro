@@ -711,13 +711,13 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -858,7 +858,7 @@
         "uuid": "befb51be-ef91-4a91-a5d6-0f5d1fe0ec19"
       }
     ],
-    "used_designators": "R22,R25,#PWR24,#PWR28,#PWR79,D7-9",
+    "used_designators": "J2,R22,R25,#PWR24,#PWR28,#PWR79-84,D7-9,C23",
     "variants": []
   },
   "sheets": [

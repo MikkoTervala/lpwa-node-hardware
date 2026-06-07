@@ -5,6 +5,315 @@
 	(uuid "befb51be-ef91-4a91-a5d6-0f5d1fe0ec19")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x05_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05_Socket"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x05_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint_Small"
 			(pin_numbers
 				(hide yes)
@@ -4818,6 +5127,12 @@
 		(uuid "b0e5560d-87cb-4107-9dae-a3889f5342df")
 	)
 	(junction
+		(at 153.67 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b123b629-5225-464a-9bea-4dd6f3aeab65")
+	)
+	(junction
 		(at 55.88 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4908,6 +5223,16 @@
 			(type default)
 		)
 		(uuid "004968d3-812f-4e82-8c14-57baf63d6d69")
+	)
+	(wire
+		(pts
+			(xy 153.67 33.02) (xy 156.21 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01363f0c-ee59-4b0c-8dbf-a9c08bccb757")
 	)
 	(wire
 		(pts
@@ -5168,6 +5493,16 @@
 			(type default)
 		)
 		(uuid "1cabe3ee-06c3-467f-8ca0-e6aa69dfe9f8")
+	)
+	(wire
+		(pts
+			(xy 151.13 25.4) (xy 156.21 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d82fbd0-ca9b-4965-a7e4-437932da66c5")
 	)
 	(wire
 		(pts
@@ -5648,6 +5983,16 @@
 			(type default)
 		)
 		(uuid "523ce037-3d39-4f73-b468-a91b1f762629")
+	)
+	(wire
+		(pts
+			(xy 151.13 27.94) (xy 156.21 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531ae7ff-6004-407a-9270-e85cbf11d693")
 	)
 	(wire
 		(pts
@@ -6361,6 +6706,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 22.86) (xy 153.67 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b322e97f-718a-4c0c-9f7c-31aad6948e14")
+	)
+	(wire
+		(pts
 			(xy 255.27 25.4) (xy 255.27 27.94)
 		)
 		(stroke
@@ -6541,6 +6896,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 30.48) (xy 156.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7677f0-cf91-45c5-a820-efdf874a53dd")
+	)
+	(wire
+		(pts
 			(xy 223.52 118.11) (xy 223.52 105.41)
 		)
 		(stroke
@@ -6598,6 +6963,16 @@
 			(type default)
 		)
 		(uuid "d57d0b59-7af6-4a65-985c-18cf29a8debc")
+	)
+	(wire
+		(pts
+			(xy 153.67 33.02) (xy 153.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c1ea19-f338-4e73-ada3-0f4f373e40b4")
 	)
 	(wire
 		(pts
@@ -6668,6 +7043,16 @@
 			(type default)
 		)
 		(uuid "e2cbc96e-9278-407a-bfcc-40df4b3bfe67")
+	)
+	(wire
+		(pts
+			(xy 156.21 22.86) (xy 153.67 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e5c149-e9b5-4d66-b49b-d8ff7f8301b4")
 	)
 	(wire
 		(pts
@@ -7890,6 +8275,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 151.13 27.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "181b9037-a6b1-49d8-95da-8bd5b403b3e7")
+		(property "Reference" "#PWR083"
+			(at 154.94 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 147.32 27.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 151.13 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65c44140-a039-44e2-a03c-fe1a1b95d367")
+		)
+		(instances
+			(project "lpwa-node"
+				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 186.69 0)
 		(unit 1)
@@ -8052,9 +8516,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23bd0b2d-890c-4a44-8876-5e6e4a22f9c8")
@@ -8183,6 +8647,17 @@
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
 			(at 134.62 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C61148"
+			(at 134.62 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8482,6 +8957,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 151.13 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d3b7fc0-d4a1-45cb-b226-4ea4557411a2")
+		(property "Reference" "#PWR082"
+			(at 154.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATTERY"
+			(at 147.32 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 151.13 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "871232b7-1715-4fdd-9056-d9deff07594c")
+		)
+		(instances
+			(project "lpwa-node"
+				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 149.86 96.52 0)
 		(unit 1)
@@ -8688,9 +9242,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ad34ce8-f80d-481d-9376-62af44baad11")
@@ -8894,6 +9448,17 @@
 		)
 		(property "Description" "Ideal Diode With Input Polarity Protection 1.5 - 5.5V  Input Voltage, 1.5A Output Current, Ron 141 mOhm, SC-70-6"
 			(at 259.08 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2869734"
+			(at 259.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9754,7 +10319,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C161115"
 			(at 115.57 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -9786,9 +10351,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67057383-cfd8-4553-b447-4d528050a1b4")
@@ -9865,9 +10430,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67170021-d76e-4813-b96c-b74bd4b85a41")
@@ -10442,9 +11007,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7620b32c-c38f-4728-ac8d-476adfa91d3b")
@@ -10823,6 +11388,17 @@
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
 			(at 261.62 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C82044"
+			(at 261.62 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11232,6 +11808,17 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
+			(at 158.75 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C61148"
 			(at 158.75 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11851,9 +12438,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a116f3d-822c-4c44-8b17-48efdadc0b61")
@@ -12083,6 +12670,176 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 151.13 25.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fca5ca1-6a53-46e6-9684-6942a3a023f7")
+		(property "Reference" "#PWR084"
+			(at 154.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V0"
+			(at 147.32 25.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 151.13 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef7dedab-97d3-470d-b278-c0e661c2cfff")
+		)
+		(instances
+			(project "lpwa-node"
+				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Socket")
+		(at 161.29 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a139daed-fbdc-4fa5-b7a3-284b80f8bd34")
+		(property "Reference" "J2"
+			(at 162.56 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Manufacturing Jig"
+			(at 162.56 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lpwa-node:TestHeader_1x05_P2.54mm"
+			(at 161.29 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 161.29 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3af261e0-73ef-44eb-8186-978a58780eb0")
+		)
+		(pin "5"
+			(uuid "0e9aca50-17cd-466e-afe1-e0386fae1972")
+		)
+		(pin "2"
+			(uuid "f4d23e85-cf5c-46aa-b9c1-011fb3275b8f")
+		)
+		(pin "4"
+			(uuid "629429cb-e59d-4e3c-af3d-7f5e0402fd09")
+		)
+		(pin "1"
+			(uuid "dfd83f81-8e1e-499b-85c4-14f4dbafb2b8")
+		)
+		(instances
+			(project "lpwa-node"
+				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 20.32 25.4 0)
 		(unit 1)
@@ -12167,9 +12924,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a247eefd-38ea-42e1-8766-030b4c813163")
@@ -12246,9 +13003,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2fb8ec7-392f-4aee-8cb6-1f7270039547")
@@ -12262,7 +13019,7 @@
 				)
 			)
 		)
-		(property "Value" "VSYS_BYPASS"
+		(property "Value" "BYPASS"
 			(at 260.35 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12385,7 +13142,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI(德州仪器)"
+		(property "MANUFACTURER" "TI(德州仪器)"
 			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12407,8 +13164,19 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C544759"
+		(property "LCSC Part" ""
 			(at 222.25 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C544759"
+			(at 222.25 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13029,7 +13797,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C161115"
 			(at 217.17 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13061,9 +13829,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1867dd7-dd87-4fce-a3ed-a7928d58e4ee")
@@ -13301,7 +14069,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MYOUNG(美阳)"
+		(property "MANUFACTURER" "MYOUNG(美阳)"
 			(at 241.3 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13323,8 +14091,19 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C19184082"
+		(property "LCSC Part" ""
 			(at 241.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C19184082"
+			(at 241.3 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13775,6 +14554,85 @@
 			(project "lpwa-node"
 				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc0da178-a668-4171-a509-4b4b9c2ece52")
+		(property "Reference" "#PWR081"
+			(at 153.67 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bfa9064-e8ea-4f7a-a8fb-3b1534b4db9f")
+		)
+		(instances
+			(project "lpwa-node"
+				(path "/befb51be-ef91-4a91-a5d6-0f5d1fe0ec19"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -14485,6 +15343,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2869734"
+			(at 210.82 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f234c51c-229b-47ad-be35-e3b6e4f0c51a")
 		)
@@ -15015,9 +15884,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddff40ae-5665-4b4b-b472-85265b911b5a")
@@ -15968,6 +16837,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C61148"
+			(at 128.27 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5c5e644c-4dfe-4b83-b41b-63c10163e273")
 		)
@@ -16041,6 +16921,17 @@
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
 			(at 181.61 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C61148"
+			(at 181.61 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2187,7 +2187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 161.29 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2414,7 +2414,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2669,7 +2669,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8fa0cd40-0880-4640-bad3-684927e0f6dd")
 		(property "Reference" "J6"
 			(at 119.38 68.0603 90)
@@ -2693,9 +2692,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 116.84 69.85 0)
-			(hide yes)
+		(property "Footprint" "lpwa-node:U.FL_Hirose_MEAS"
+			(at 113.284 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3496,7 +3494,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
