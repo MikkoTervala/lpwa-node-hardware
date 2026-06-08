@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -562,10 +562,10 @@
       {
         "clearance": 0.2,
         "name": "RF_50R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(183, 255, 160)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.15,
         "tuning_profile": ""
       },
       {
@@ -858,7 +858,7 @@
         "uuid": "befb51be-ef91-4a91-a5d6-0f5d1fe0ec19"
       }
     ],
-    "used_designators": "J2,R22,R25,#PWR24,#PWR28,#PWR79-84,D7-9,C23",
+    "used_designators": "T1-4",
     "variants": []
   },
   "sheets": [
